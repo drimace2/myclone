@@ -1,0 +1,30 @@
+main {
+    display: flex;
+    max-height: calc(100vw -100px);
+    padding: 16px;
+}
+
+.navigation {
+    width: 40%;
+}
+
+.content {
+    overflow-y: scroll;
+}
+
+.content p {
+    text-align: justify;
+}
+
+@media screen and (max-width:576px) {
+
+    main {
+        padding: 8px;
+
+    }
+
+    .navigation {
+        display: none;
+    }
+
+}

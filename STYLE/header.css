@@ -58,3 +58,29 @@ header li a {
     border-radius: 50%;
     margin-right: 5px;
 }
+
+.profile svg path {
+    fill: #fff;
+}
+
+main {
+    min-height: calc(100vh -100px);
+}
+
+.menu {
+    display: none;
+}
+
+@media screen and (max-width:1440px) {
+    header {
+        background-color: rgb(67, 225, 199);
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    header {
+        background-color: bisque;
+    }
+
+}
